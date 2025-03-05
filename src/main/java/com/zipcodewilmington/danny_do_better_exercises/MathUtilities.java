@@ -122,7 +122,8 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Double subtract(double baseValue, double difference) {
-        return null;
+
+        return baseValue-difference;
     }
 
 
