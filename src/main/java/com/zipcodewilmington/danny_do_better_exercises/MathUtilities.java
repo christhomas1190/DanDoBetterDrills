@@ -41,7 +41,10 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Byte add(byte baseValue, byte difference) {
-        return null;
+            final byte a = baseValue;
+            final byte b = difference;
+            int s = a+b;
+            return (byte)s;
     }
 
     /**
