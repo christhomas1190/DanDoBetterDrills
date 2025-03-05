@@ -10,7 +10,8 @@ public class PredicateUtilities {
      * @return true if `x` is greater than `y`
      */
     public Boolean isGreaterThan(int x, int y) {
-        return null;
+
+        return x<y;
     }
 
     /**
@@ -52,7 +53,8 @@ public class PredicateUtilities {
      * @return false
      */
     public Boolean returnFalse() {
-        return null;
+
+        return false;
     }
 
 }
