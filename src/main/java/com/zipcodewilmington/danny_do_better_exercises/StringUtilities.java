@@ -19,7 +19,7 @@ public class StringUtilities {
      */
     public static String concatenation(String firstSegment, String secondSegment){
 
-        return firstSegment+" "+secondSegment;
+        return firstSegment+secondSegment;
     }
 
     /**
