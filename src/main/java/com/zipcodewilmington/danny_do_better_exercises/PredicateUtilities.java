@@ -11,7 +11,7 @@ public class PredicateUtilities {
      */
     public Boolean isGreaterThan(int x, int y) {
 
-        return x<y;
+        return x>y;
     }
 
     /**
@@ -49,7 +49,8 @@ public class PredicateUtilities {
      * @return true
      */
     public Boolean returnTrue() {
-        return null;
+
+        return true;
     }
 
     /**
