@@ -65,7 +65,7 @@ public class StringUtilities {
      * @return the middle character of `inputValue`
      */
     public static Character getMiddleCharacter(String inputValue){
-        int str = inputValue.length()/2;
+        int str = (inputValue.length()/2)-1;
 
         return inputValue.charAt(str);
     }
@@ -75,7 +75,9 @@ public class StringUtilities {
      * @return the first sequence of characters
      */
     public static String getFirstWord(String spaceDelimitedString){
-        return null;
+        String[] str = spaceDelimitedString.split(" ");
+
+        return str[0];
     }
 
     /**
