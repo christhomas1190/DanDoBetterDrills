@@ -143,7 +143,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Long divide(long dividend, long divisor) {
-        return null;
+
+        return dividend/divisor;
     }
 
     /**
