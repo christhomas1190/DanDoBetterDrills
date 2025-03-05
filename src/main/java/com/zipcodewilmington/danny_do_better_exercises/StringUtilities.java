@@ -56,7 +56,8 @@ public class StringUtilities {
      * @return the equivalence of two strings, `inputValue` and `comparableValue`
      */
     public static Boolean compareTwoStrings(String inputValue, String comparableValue){
-        return null;
+
+        return inputValue.equals(comparableValue);
     }
 
     /**
